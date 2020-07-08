@@ -1,0 +1,81 @@
+
+-partos : 
+		departamento : 
+			municipio : cantidad
+			tipo : 
+				vaginal
+				cesarea
+				
+			personal_salud :
+			centro_salud : 
+				tipo :
+					hospital 
+					centro_
+
+
+
+
+cantidad atenciones por centro salud
+servicios que brindan 
+historial
+resultado de la atenciones
+insumo aplicado durante la gestion 
+insumo aplicado durante el perto
+datos ampliios de gestante
+datos amplios de la madre
+datos ampliios del neonato
+profesionales que atendrieron la gestacion
+profesionales que atendrieron el partos
+
+SOURCE															TARGET_1
+	
+cantidad_establecimientos_nivel_atencion_2006_2015				c_est_nva_2006, c_est_nva_2007, c_est_nva_2008..
+cantidad_cobertura_partos_institucionales_2009_2015				c_c_partos_2009, c_c_partos_2010 ... 
+cantidad_nacimientos_2009_2015
+cantidad_control_prenatal_2009_2015
+cantidad_consulta_externa_2009_2015
+
+
+
+cantidad_establecimientos_nivel_atencion_2006_2015
+	departamento 
+	municipio
+	centro
+	hospital
+	instituto_especialidad
+	[falta]
+	[institucion : {hospital, instituto, centro salud} {fecha_fundacion}]
+
+
+cantidad_cobertura_partos_institucionales_2009_2015
+	departamento
+	municipio
+	tipo_parto : vaginal
+				 cesareas
+				partos_atendidos_profesianl
+				total
+				
+cantidad_nacimientos_2009_2015
+	departamento
+	municipio
+	nacidos_vivo
+	nacido_vivo_personal_salud
+	nacido_muerto
+	nacido_muerto_personal_salud
+	
+cantidad_control_prenatal_2009_2015
+	departamento
+	municipio
+	mujeres
+	
+cantidad_consulta_externa_2009_2015
+	departamento
+	municipio
+	ce_menores_de_5_años
+	ce_mayores_de_5_años
+	ce_total_general
+	promedio_menor_de_5_años
+	promedio_mayor_de_5_años
+	
+	 hospital{ Nombre : Hospital A}
+	 Medico :{ nombre : juan, edad : 23, sexo : M}
