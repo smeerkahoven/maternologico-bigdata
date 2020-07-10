@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>240</x>
+      <y>140</y>
+      <w>100</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Source</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>140</y>
+      <w>100</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Anaconda</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>610</x>
+      <y>140</y>
+      <w>100</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>MongoDb</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>790</x>
+      <y>140</y>
+      <w>100</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Chart</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>330</x>
+      <y>180</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>100.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>180</y>
+      <w>110</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>700</x>
+      <y>180</y>
+      <w>110</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;.</panel_attributes>
+    <additional_attributes>90.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>250</x>
+      <y>170</y>
+      <w>70</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>n
+--
+bg=orange</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>440</x>
+      <y>160</y>
+      <w>80</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>// Control Element
+	     .py
+customelement=
+// Control Symbol
+drawCircle(50, 50, 20)
+drawLine(44, 31, 54, 21)
+drawLine(44, 31, 54, 41)
+
+// aqui hacemos los procesos de 
+// read_hospitales = recursos(hospitales)
+// read_surce = read(atencion.csv)
+// mapping (read_source, read_hospitales)
+// insert_to_mongo()</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>630</x>
+      <y>180</y>
+      <w>70</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>cluster</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>PlotGrid</id>
+    <coordinates>
+      <x>790</x>
+      <y>170</y>
+      <w>90</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>// single plots are easily created without using capabilities of a (plot)grid
+
+data
+a	b	c
+3	7	13
+
+plot type=bar</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
